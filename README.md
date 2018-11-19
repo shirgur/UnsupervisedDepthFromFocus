@@ -31,4 +31,4 @@ Download the official dataset from [here](https://github.com/marcelampc/d3net_de
 ## Training
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py --nof-focus 2
-'''
+```
