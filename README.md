@@ -1,4 +1,4 @@
-# DepthFromFocus
+# Unsupervised Learning of Depth from Defocus Using a Gaussian PSF Layer
 Official implementation of "Unsupervised Learning of Depth from Defocus Using a Gaussian PSF Layer" ([arxiv](https://arxiv.org/)).
 The implementation is based on the architectures of [DeepLabV3+](https://github.com/jfzhang95/pytorch-deeplab-xception) and [Self-Attention](https://github.com/heykeetae/Self-Attention-GAN).
 
@@ -11,6 +11,11 @@ The implementation is based on the architectures of [DeepLabV3+](https://github.
 - Path
 - tqdm
 - h5py
+### Gaussian PSF
+In order to build the Gaussian PSF layer on your own machine, run the following line
+```
+python ext/setup.py install
+```
 
 ## Datasets
 ### [KITTI](http://www.cvlibs.net/datasets/kitti/index.php)
