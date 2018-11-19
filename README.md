@@ -11,7 +11,7 @@ The implementation is based on the architectures of [DeepLabV3+](https://github.
 - Path
 - tqdm
 - h5py
-### Gaussian PSF
+### Gaussian PSF Layer
 In order to build the Gaussian PSF layer on your own machine, run the following line
 ```
 python ext/setup.py install
@@ -31,7 +31,7 @@ Download the official dataset and use [the following](https://github.com/janivan
 Download the official dataset from [here](https://people.eecs.berkeley.edu/~pratul/) and generate all bokeh images accorfing to [Srinivasan](https://github.com/google/aperture_supervision).
 
 ### [DSLR](https://github.com/marcelampc/d3net_depth_estimation)
-Download the official dataset from [here](https://github.com/marcelampc/d3net_depth_estimation/tree/master/dfd_datasets)
+Download the official dataset from [here](https://github.com/marcelampc/d3net_depth_estimation/tree/master/dfd_datasets).
 
 ## Training
 ```
