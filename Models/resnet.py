@@ -1,3 +1,6 @@
+# The code is base on https://github.com/jfzhang95/pytorch-deeplab-xception
+# and https://github.com/heykeetae/Self-Attention-GAN
+
 import math
 import torch
 import torch.nn as nn
