@@ -1,5 +1,5 @@
 # Unsupervised Learning of Depth from Defocus Using a Gaussian PSF Layer
-Official implementation of "Unsupervised Learning of Depth from Defocus Using a Gaussian PSF Layer" ([arxiv](https://arxiv.org/)).
+Official implementation of "Single Image Depth Estimation Trained via Depth from Defocus Cues" ([arxiv](https://arxiv.org/)).
 The implementation is based on the architectures of [DeepLabV3+](https://github.com/jfzhang95/pytorch-deeplab-xception) and [Self-Attention](https://github.com/heykeetae/Self-Attention-GAN).
 
 ## Prerequisites
